@@ -107,7 +107,9 @@ const getRoutesInspectorTree = async (filter = '') => {
   })
 }
 
-until(inspectorId).toBeTruthy().then(getRoutesInspectorTree)
+until(inspectorId).toBeTruthy().then(() => {
+  getRoutesInspectorTree()
+})
 
 function onInspectorTreeUpdated(_data: string) {
   const data = parse(_data) as {
