@@ -51,14 +51,13 @@ addCustomTab({
   category: 'advanced',
 })
 
-
 const SFC = /* vue */ `
   <script setup lang="ts">
   import { ref } from 'vue'
-  
+
   const count = ref(0)
   </script>
-  
+
   <template>
     <div class="h-full w-full flex flex-col items-center justify-center">
       <div>
@@ -69,7 +68,7 @@ const SFC = /* vue */ `
       </button>
     </div>
   </template>
-  
+
   <style scoped>
   .btn {
     background-color: #4c51bf;
