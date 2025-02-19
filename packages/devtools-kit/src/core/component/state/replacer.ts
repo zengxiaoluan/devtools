@@ -4,7 +4,7 @@ import { getBigIntDetails, getComponentDefinitionDetails, getDateDetails, getFun
 import { isVueInstance } from './is'
 import { sanitize } from './util'
 
-export type Replacer = (this: any, key: string | number, value: any, depth?: number, seenInstance?: Map</* instance */any, /* depth */number>) => any
+export type Replacer = (this: any, key: string | number, value: any, depth?: number, seenInstance?: Map<any, /* depth */number>) => any
 
 export function stringifyReplacer(key: string | number, _value: any, depth?: number, seenInstance?: Map<any, number>) {
   // fix vue warn for compilerOptions passing-options-to-vuecompiler-sfc

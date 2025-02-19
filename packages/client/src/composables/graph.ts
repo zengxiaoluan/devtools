@@ -227,8 +227,8 @@ function updateGraph() {
 }
 
 function recursivelyGetNodeByDep(node: SearcherNode[]) {
-  const allNodes = new Map</* fullId */string, Node>()
-  const allEdges = new Map</* from-to */string, Edge>()
+  const allNodes = new Map<string, Node>()
+  const allEdges = new Map<string, Edge>()
   node.forEach((n) => {
     n = deepClone(n)
     // to highlight current searched node
