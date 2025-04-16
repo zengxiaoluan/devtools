@@ -76,8 +76,8 @@ catalogs:
       specifier: ^4.5.3
       version: 4.5.3
     vite-plugin-inspect:
-      specifier: ^0.10.6
-      version: 0.10.6
+      specifier: 0.8.9
+      version: 0.8.9
     vue:
       specifier: ^3.5.13
       version: 3.5.13
@@ -667,7 +667,7 @@ importers:
         version: 6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)
       vite-plugin-inspect:
         specifier: 'catalog:'
-        version: 0.10.6(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 0.8.9(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
       vite-plugin-vue-devtools:
         specifier: workspace:*
         version: link:../../vite
@@ -731,7 +731,7 @@ importers:
         version: 6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)
       vite-plugin-inspect:
         specifier: 'catalog:'
-        version: 0.10.6(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 0.8.9(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
       vite-plugin-vue-devtools:
         specifier: workspace:*
         version: link:../../vite
@@ -774,7 +774,7 @@ importers:
         version: 6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)
       vite-plugin-inspect:
         specifier: 'catalog:'
-        version: 0.10.6(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 0.8.9(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
       vite-plugin-vue-devtools:
         specifier: workspace:*
         version: link:../../vite
@@ -812,7 +812,7 @@ importers:
         version: 6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)
       vite-plugin-inspect:
         specifier: 'catalog:'
-        version: 0.10.6(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 0.8.9(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
       vite-plugin-vue-devtools:
         specifier: workspace:*
         version: link:../../vite
@@ -972,7 +972,7 @@ importers:
         version: 6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)
       vite-plugin-inspect:
         specifier: 'catalog:'
-        version: 0.10.6(rollup@4.39.0)(vite@6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
+        version: 0.8.9(rollup@4.39.0)(vite@6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
       vite-plugin-vue-inspector:
         specifier: ^5.3.1
         version: 5.3.1(vite@6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0))
@@ -9029,12 +9029,12 @@ packages:
       vite:
         optional: true
 
-  vite-plugin-inspect@0.10.6:
-    resolution: {integrity: sha512-R3pwljjBbjFM2sZvy6Zvynnm51oaEwLYyYPk9Wp2lF97w/YMBq+KtTJXpCA17IO2pImX0bWA6WB05kuqRnkuyQ==}
+  vite-plugin-inspect@0.8.9:
+    resolution: {integrity: sha512-22/8qn+LYonzibb1VeFZmISdVao5kC22jmEKm24vfFE8siEn47EpVcCLYMv6iKOYMJfjSvSJfueOwcFCkUnV3A==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': '*'
-      vite: ^6.0.0
+      vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0 || ^6.0.1
     peerDependenciesMeta:
       '@nuxt/kit':
         optional: true
@@ -18782,7 +18782,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-inspect@0.10.6(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)):
+  vite-plugin-inspect@0.8.9(rollup@4.39.0)(vite@6.2.1(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.4(rollup@4.39.0)
@@ -18798,7 +18798,7 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-inspect@0.10.6(rollup@4.39.0)(vite@6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)):
+  vite-plugin-inspect@0.8.9(rollup@4.39.0)(vite@6.2.6(@types/node@22.13.14)(jiti@2.4.2)(sass-embedded@1.86.0)(terser@5.37.0)(tsx@4.19.3)(yaml@2.7.0)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.4(rollup@4.39.0)
