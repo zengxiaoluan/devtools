@@ -26,7 +26,7 @@ import '@vue/devtools-ui/style.css'
 import '~/assets/styles/main.css'
 
 const routes = [
-  { path: '/', redirect: '/overview' },
+  { path: '/', redirect: '/components' },
   { path: '/overview', component: Overview },
   { path: '/components', component: Components },
   { path: '/pinia', component: PiniaPage },
